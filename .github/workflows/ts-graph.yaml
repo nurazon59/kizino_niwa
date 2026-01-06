@@ -10,7 +10,7 @@ jobs:
     name: Test dummy project
     steps:
       - name: Checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       - name: Delta Typescript Graph
         id: tsg
         uses: ysk8hori/delta-typescript-graph-action@bcc7486f7d7c4a4a6dda8cb789d681133b289145
