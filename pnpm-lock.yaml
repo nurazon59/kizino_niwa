@@ -70,7 +70,7 @@ importers:
         version: 18.3.1
       react-avatar:
         specifier: ^5.0.3
-        version: 5.0.3(@babel/runtime@7.28.4)(core-js-pure@3.39.0)(prop-types@15.8.1)(react@18.3.1)
+        version: 5.0.4(@babel/runtime@7.28.4)(core-js-pure@3.39.0)(prop-types@15.8.1)(react@18.3.1)
       react-avatar-editor:
         specifier: ^13.0.2
         version: 13.0.2(@babel/core@7.26.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3562,13 +3562,13 @@ packages:
       react: ^0.14.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
       react-dom: ^0.14.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
 
-  react-avatar@5.0.3:
-    resolution: {integrity: sha512-DNc+qkWH9QehSEZqHBhqpXWsPY+rU9W7kD68QFHfu8Atfsvx/3ML0DzAePgTUd96nCXQQ3KZMcC3LKYT8FiBIg==}
+  react-avatar@5.0.4:
+    resolution: {integrity: sha512-5oJRv9A02KBJGtVIpCZjU2yWGKetUX0Ft5GMCJ2oDM53XfhuubIGb1WsZJLcCh/QywpAXap8g7R9NVAGtp+Amw==}
     peerDependencies:
       '@babel/runtime': '>=7'
       core-js-pure: '>=3'
       prop-types: ^15.0.0 || ^16.0.0
-      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   react-dom@18.3.1:
     resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
@@ -8371,7 +8371,7 @@ snapshots:
       - '@babel/core'
       - supports-color
 
-  react-avatar@5.0.3(@babel/runtime@7.28.4)(core-js-pure@3.39.0)(prop-types@15.8.1)(react@18.3.1):
+  react-avatar@5.0.4(@babel/runtime@7.28.4)(core-js-pure@3.39.0)(prop-types@15.8.1)(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.28.4
       core-js-pure: 3.39.0
